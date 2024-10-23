@@ -35,11 +35,16 @@ Note:
 ## Factorizations
 
 ### Schur 
-Schur factorization. Given a matrix A, finds an upper triangular matrix T and a unitary matrix P such that $A=P^{-1}AP=P^*AP$.
+Schur factorization. Given a matrix A, finds an upper triangular matrix T and a unitary matrix P such that 
+$A=P^{-1}AP=P^*AP$
+.
 
 Usage:
 - Let M be a real or complex square matrix.
-- The program returns two matrices, T and P, following the conditions outlined above.
+- The program returns two matrices,
+$T$
+and
+$P$, following the conditions outlined above.
 
 Warnings / errors:
 - The program will error if the matrix is not square
@@ -51,7 +56,9 @@ Note:
 
 ### SVD
 Singular Value Decomposition. Given any matrix, finds the singular values. Also computes 
-$U\in\mathcal{M}_{n\times n}(\mathbb{K}), V\in\mathcal{M}_{m\times m}(\mathbb{K})$ and $\Sigma\in\mathcal{M}_{m\times n}(\mathbb{R})$
+$U\in\mathcal{M}_{n\times n}(\mathbb{K}), V\in\mathcal{M}_{m\times m}(\mathbb{K})$ 
+and 
+$\Sigma\in\mathcal{M}_{m\times n}(\mathbb{R})$
 such that 
 $A=V\Sigma U^*$
 , where 
