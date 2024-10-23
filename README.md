@@ -50,7 +50,15 @@ Note:
 
 
 ### SVD
-Singular Value Decomposition. Given any matrix, finds the singular values. Also computes $U\in\mathcal{M}_{n\times n}(\mathbb{K}), V\in\mathcal{M}_{m\times m}(\mathbb{K})$ and $\Sigma\in\mathcal{M}_{m\times n}(\mathbb{R})$ such that $A=V\Sigma U^*$, where $^*$ is the complex conjugate. $\Sigma$ is a diagonal matrix of the singular values.
+Singular Value Decomposition. Given any matrix, finds the singular values. Also computes 
+$U\in\mathcal{M}_{n\times n}(\mathbb{K}), V\in\mathcal{M}_{m\times m}(\mathbb{K})$ and $\Sigma\in\mathcal{M}_{m\times n}(\mathbb{R})$
+such that 
+$A=V\Sigma U^*$
+, where 
+$^*$
+is the complex conjugate. 
+$\Sigma$
+is a diagonal matrix of the singular values.
 
 Usage:
 - Let M be a real or complex square matrix.
